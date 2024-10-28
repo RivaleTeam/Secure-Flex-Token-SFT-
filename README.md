@@ -37,7 +37,7 @@ const data = {
   ip: '192.168.0.1', 
   userAgent: 'Mozilla/5.0',
   scope: ['read', 'write'], 
-  public: { name: 'Lucas' },
+  public: { name: 'Germano' },
   private: { userId: 42, role: 'admin' },
 };
 
