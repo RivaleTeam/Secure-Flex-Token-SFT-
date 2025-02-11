@@ -25,9 +25,11 @@ Primeiro, instale o **Node.js**, que é necessário para rodar o projeto.
 ### 2. Exemplo de Criação e Verificação de Token
 Veja um exemplo básico de uso para criar e verificar tokens com claims customizados.
 
+npm i sft-token
+
 ```javascript
 const crypto = require('crypto');
-const SFT = require('./SFT'); // Supondo que o código da classe esteja no arquivo 'SFT.js'
+const SFT = require('sft-token'); // Supondo que o código da classe esteja no arquivo 'SFT.js'
 
 // Definindo as chaves de criptografia e HMAC
 const password1 = 'password1';
